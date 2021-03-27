@@ -1,0 +1,12 @@
+//http://localhost:3333/users
+//http://localhost:3333/contacts
+
+//GET: Buscar ou listar uma informação
+//POST: Criar alguma nova informação
+//PUT: Atualizar uma informação existed
+//DELETE: Deletar uma uinformação existente
+
+// Corpo (Request Body):  Daddos para criação ou atualização de um resgistro.
+
+// Route Params: Identificar qual recurso eu quero atualiar ou deletar
+// Query Params: Paginação, filtros, ordenação
