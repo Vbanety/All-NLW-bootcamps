@@ -2,6 +2,6 @@
 
 ## Next Level Week
 
-<img src="/src/assets/apresentation.png" alt="apresention">
+![Apresentation](./src/assets/apresentation.png)
 
 * Uploading the files were created during the ROCKETSET class.
