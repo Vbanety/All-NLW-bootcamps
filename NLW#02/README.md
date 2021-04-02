@@ -3,7 +3,14 @@
 
  * This is one more event from Rocketseat to teaching beginners programers to grow up in your career and up your level experience in development area.
 
+** IN THIS PROJECT THE TECHNOLOGIES, FRAMEWORKS AND LIBRARIES BELOW WERE USED **
+
+| JAVASCRIPT | TYPESCRIPT | JSON | HTML | CSS | REACT | SQLILTE3 | CORS | 
+| ---------- | ---------- | ---- | ---- | --- | ----- | -------- | ---- |
+
+
 ![Designer of project](./web/app-nlw2.png)
+
 
 ## Welcome! 👋
 
