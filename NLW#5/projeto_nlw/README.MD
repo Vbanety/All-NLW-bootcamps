@@ -1,4 +1,4 @@
-(./assets/apresentation.png)
+![Let's go NLW05](./assets/apresentation.png)
 
 ##STEP BY STEP of CLASS 
 
