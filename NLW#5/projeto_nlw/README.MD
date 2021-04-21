@@ -2,7 +2,7 @@
 
 ## STEP BY STEP of CLASS 
 
-**First of all, you need to install some libraries.
+** First of all, you need to install some libraries.
 
 1- Start setting the command [yarn init -y]
 
@@ -20,4 +20,4 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 
 5- Now you'll gonna do some request and response just for testing your server.
 
-**OBS> The first code of the first class is MISSAOESPACIAL
+** OBS> The first code of the first class is MISSAOESPACIAL
