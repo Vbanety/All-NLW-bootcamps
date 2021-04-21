@@ -1,3 +1,5 @@
+(./assets/apresentation.png)
+
 ##STEP BY STEP of CLASS 
 
 **First of all, you need to install some libraries.
