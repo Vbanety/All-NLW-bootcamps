@@ -1,6 +1,6 @@
 ![Let's go NLW05](./assets/apresentation.png)
 
-## STEP BY STEP of CLASS 
+## STEP BY STEP of CLASSES
 
 **CLASS01**
 
@@ -25,6 +25,7 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 **OBS** > The first code of the first class is MISSAOESPACIAL
 
 **CLASS02**
+
 6- Install sqlite for database > [ yarn add typeorm reflect-metadata sqlite3]
 
 7- Creating migrations > [ yarn typeorm migration:create -n CreateSettings ]
@@ -45,7 +46,6 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 
 10- yarn typeorm migration:create -n CreateUsers
 11- yarn typeorm migration:create -n CreateMessages
-
 
 
 **OBS** > The first code of the first class is "ASTRONAUTAS"
