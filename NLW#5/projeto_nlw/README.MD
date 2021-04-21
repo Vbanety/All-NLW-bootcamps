@@ -2,6 +2,8 @@
 
 ## STEP BY STEP of CLASS 
 
+**CLASS01**
+
 ** First of all, you need to install some libraries.
 
 1- Start setting the command [yarn init -y]
@@ -22,6 +24,7 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 
 **OBS** > The first code of the first class is MISSAOESPACIAL
 
+**CLASS02**
 6- Install sqlite for database > [ yarn add typeorm reflect-metadata sqlite3]
 
 7- Creating migrations > [ yarn typeorm migration:create -n CreateSettings ]
@@ -38,4 +41,11 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 
 **OBS** The first code of the first class is"EMBUSCADOPROXIMONIVEL"
 
-## Let's go to the next class, thrid class.
+**CLASS03**
+
+10- yarn typeorm migration:create -n CreateUsers
+11- yarn typeorm migration:create -n CreateMessages
+
+
+
+**OBS** > The first code of the first class is "ASTRONAUTAS"
