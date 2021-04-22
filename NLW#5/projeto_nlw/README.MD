@@ -49,3 +49,30 @@ command> [ yarn tsc --init ] after that alter the line 28 changing the value of 
 
 
 **OBS** > The first code of the first class is "ASTRONAUTAS"
+
+
+**CLASS04**
+
+*Protocol HTTP*
+
+- Client send a request to the Servidor and waitting for the response.
+
+*Protocol WS/ Websocket*
+
+- When the client make a connection with server you give a generation of websocket like a ID.
+
+A little example about connection from websocket.
+
+```js
+io.on('connection', socket => {
+  socket.emit('request', /* … */); // emit an event to the socket
+  io.emit('broadcast', /* … */); // emit an event to all connected sockets
+  socket.on('reply', () => { /* … */ }); // listen to the event
+});
+```
+
+12- Start to install the socket.io with command > [ yarn add socket.io / ]
+
+13- Types > yarn add @types/socket.io -D
+
+14- EJS and socket.io-client > yarn add ejs / yarn add socket.io-client
