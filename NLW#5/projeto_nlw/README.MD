@@ -4,7 +4,7 @@
 
 **CLASS01**
 
-** First of all, you need to install some libraries.
+**First of all, you need to install some libraries.**
 
 1- Start setting the command [yarn init -y]
 
