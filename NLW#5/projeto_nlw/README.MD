@@ -76,3 +76,10 @@ io.on('connection', socket => {
 13- Types > yarn add @types/socket.io -D
 
 14- EJS and socket.io-client > yarn add ejs / yarn add socket.io-client
+
+* Creating the table of connections by foraign keys
+
+15- Set command on terminal > [ yarn typeorm migration:create -n CreateConnections ]
+* After configure the queryRunner of foreignKey > yarn typeorm migration:run
+
+**OBS** > The first code of the first class is "O UNIVERSO É INFINITO"

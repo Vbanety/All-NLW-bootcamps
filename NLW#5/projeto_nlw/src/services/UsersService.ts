@@ -4,6 +4,12 @@ import { UsersRepository } from "../repositories/UsersRepository";
 
 
 class UsersService {
+    
+    async findByEmail(email: string) {
+        const user = await this.usersRepository.findOne({ email });
+      
+        return user;
+      }
 
     private usersRepository: Repository<User>
 

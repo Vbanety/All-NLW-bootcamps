@@ -3,15 +3,15 @@ import {Entity,
     CreateDateColumn, 
     Column, 
     ManyToOne, 
-    JoinColumn 
+    JoinColumn, 
+    UpdateDateColumn
 } from "typeorm";
 
 import { v4 as uuid } from "uuid";
 import { User } from "./User";
 
-@Entity("messages")
-class Message {
-
+@Entity("connections")
+class Connection {
     @PrimaryColumn()
     id: string;
 
@@ -19,7 +19,7 @@ class Message {
     admin_id: string;
     
     @Column()
-    text: string;
+    socket_id: string;
 
     @JoinColumn({ name: "user_id"})
     @ManyToOne(() => User)
@@ -31,12 +31,14 @@ class Message {
     @CreateDateColumn()
     created_at: Date;
 
+    @UpdateDateColumn()
+    updated_at: Date;
+
     constructor() {
         if(!this.id) {
             this.id = uuid();
         }
     }
-
 }
 
-export { Message };
+export { Connection };
