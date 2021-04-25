@@ -4,6 +4,8 @@
 
 **CLASS01**
 
+- In this class we're learn some stuff about database, connection with webpecker, utilize TYPEORM for creating entities, separating all logical of aplication in services folders, communication between admin to the client by chat.
+
 **First of all, you need to install some libraries.**
 
 1- Start setting the command [yarn init -y]
@@ -88,8 +90,8 @@ io.on('connection', socket => {
 
 **CLASS05**
 
-- Creation a connection by socket.io with admin and user throw events using functions to ajecting answers and questions between user and admin.
+- Creation a connection by socket.io with admin and user throw events using functions to ejecting answers and questions between user and admin.
 
 
 
-**OBS** > The first code of the first class is ""
+**OBS** > The first code of the first class is "MISSÃOCUMPRIDA"

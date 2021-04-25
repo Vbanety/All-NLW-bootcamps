@@ -10,19 +10,17 @@
       rel="stylesheet"
     />
     <title></title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    
     <div id="list_users"></div>
 
     <script id="template" type="x-tmpl-mustache">
-      <div id="user{{id}}" class="user-email">
+      <div id="user{{id}}">
           <span class="email">Email: {{email}}</span>
           <button class="btn_atd" onclick="call('{{id}}')">Entrar em atendimento</button>
       </div>
-      <link rel="stylesheet" href="../css/styles.css" />
     </script>
 
     <div id="supports"></div>
@@ -40,7 +38,6 @@
                   <button id="send" class="btn_send" onclick="sendMessage('{{id}}')">Enviar</button>
                  </div>
       </div>
-      <link rel="stylesheet" href="../css/styles.css" />
     </script>
   </body>
 
