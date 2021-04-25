@@ -82,4 +82,14 @@ io.on('connection', socket => {
 15- Set command on terminal > [ yarn typeorm migration:create -n CreateConnections ]
 * After configure the queryRunner of foreignKey > yarn typeorm migration:run
 
-**OBS** > The first code of the first class is "O UNIVERSO É INFINITO"
+
+**OBS** > The first code of the first class is "ASTRONAUTAS"
+
+
+**CLASS05**
+
+- Creation a connection by socket.io with admin and user throw events using functions to ajecting answers and questions between user and admin.
+
+
+
+**OBS** > The first code of the first class is ""

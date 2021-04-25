@@ -3,6 +3,7 @@ root,
 html {
   padding: 5px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -246,4 +247,98 @@ input[type="text"]:focus {
 .date {
   text-align: right;
   font-size: 1px;
+}
+
+.admin {
+  width: auto;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.in_support {
+  background-color: #8257e6;
+  color: #fff;
+}
+
+.admin_send_message {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin_send_message input {
+  width: 65%;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, .08);
+  padding: 10px;
+}
+
+.btn_send {
+  background-color: #1da123;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  width: 150px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, .08);
+}
+
+.user-email {
+  background-color: rgba(0, 0, 0, .1);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: auto;
+  width: auto;
+}
+
+.btn_atd {
+  background-color: #ec2270;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn_atd:hover {
+  background-color: #ffffff;
+  color: #ec2270;
+  transition: all .2s ease-in-out;
+}
+
+.admin_message_client, 
+.admin_message_admin {
+  background-color: #fff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.admin_message_admin p {
+  color: #ec2270;
+}
+
+.message_email {
+  color: rgb(146, 56, 197);
+}
+
+.admin_date {
+  font-size: 10px;
+  /* color: #fff; */
+}
+
+#supports {
+  overflow-y: scroll;
+  height: 350px;
 }
