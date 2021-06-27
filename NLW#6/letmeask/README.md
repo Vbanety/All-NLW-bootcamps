@@ -8,11 +8,11 @@
 
 ** In this project was builded using this technologies:
 
-  ![html](./src/assets/design/html5.svg)
-            ![sass](./src/assets/design/sass.svg)
-            ![js](./src/assets/design/js.svg)
-            ![reactjs](./src/assets/design/reactjs.svg)
-            ![typescript](./src/assets/design/typscript.svg)
+![html](./src/assets/design/png/html.png)
+![sass](./src/assets/design/png/sass.png)
+![js](./src/assets/design/png/js.png)
+![reactjs](./src/assets/design/png/react.png)
+![typescript](./src/assets/design/png/typscript.png)
 
 <table align="center">
         <tr background-color="#ffffff">
