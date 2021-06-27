@@ -13,6 +13,11 @@
 ![js](./src/assets/design/png/js.png)
 ![reactjs](./src/assets/design/png/react.png)
 ![typescript](./src/assets/design/png/typescript.png)
+![firebase](./src/assets/design/png/firebase.png)
+
+**In this project you can do authentication using your google account by firebase authentication**
+
+1 - After you opening the page home, you can click on the button "Create a class with google account", and then, you can type the name of the classroom as your preference, and start to typing your doubts or suggestions.
 
 **I implemented of the rendering for mobile devices using @media queries and will make other changes such as features and styling.**
 
