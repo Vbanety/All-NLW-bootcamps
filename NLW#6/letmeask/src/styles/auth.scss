@@ -140,4 +140,44 @@
             margin-left: 16px;
         }
     }
+    
+}
+
+@media screen and (max-width: 767px){
+    #page-auth {
+        flex-direction: column;
+        
+        aside {
+            padding: 60px;
+            text-align: center;       
+    
+            img {
+                max-width: 620px;
+                width: 100%;
+            }
+
+            strong {
+                line-height: 42px;
+                margin-top: 16px;
+                font-size: 20px;
+            }
+        }
+
+        main {
+            padding: 32px;
+        }
+
+        .main-content {
+            margin: 40px 0;
+
+            h2 {
+                margin-top: 34px;
+            }
+
+            form button {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
 }
