@@ -1,8 +1,38 @@
-#NLW06-TOGETHER
+![Apresentation](./src/assets/design/apresentation.png)
 
-*
+# NLW06-TOGETHER
+
+* This project was created in a bootcamps from [Rocketseat - NLW Together](https://rocketseat.com.br/)
+
+* The deploy of the project you can check [here](https://letmeask-d148e.firebaseapp.com/).
+
+** In this project was builded using this technologies:
+
+![html](./src/assets/design/png/html.png)
+![sass](./src/assets/design/png/sass.png)
+![js](./src/assets/design/png/js.png)
+![reactjs](./src/assets/design/png/react.png)
+![typescript](./src/assets/design/png/typscript.png)
+
+<table align="center">
+        <tr background-color="#ffffff">
+            
+            <th><img src="https://i.ibb.co/dLZg9SP/node.png" alt="node" width="60" height="50" marginwidth="5px"></th>
+        </tr>
+        <tr>
+            <th width="50" height="60"><span>HTML5</span></th>
+            <th width="50" height="60"><span>CSS3</span></th>
+            <th width="50" height="60"><span>Javascript</span></th>
+            <th width="50" height="60"><span>SQLite</span></th>
+            <th width="50" height="60"><span>React</span></th>
+            <th width="50" height="60"><span>Node.js</span></th>
+        </tr>
+    </table>
 
 
+<div align="center">
+  
+</div>
 
 # Getting Started with Create React App
 
